@@ -558,6 +558,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 300px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
 @media (min-width: 375px) {
   .container {
     max-width: 375px;
@@ -610,8 +616,8 @@ video {
   margin-top: -1.25rem;
 }
 
-.ml-\[32rem\] {
-  margin-left: 32rem;
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .mt-\[3\.5rem\] {
@@ -638,16 +644,8 @@ video {
   height: 100vh;
 }
 
-.w-\[35rem\] {
-  width: 35rem;
-}
-
 .w-screen {
   width: 100vw;
-}
-
-.w-\[40rem\] {
-  width: 40rem;
 }
 
 .max-w-2xl {
@@ -744,11 +742,6 @@ video {
   line-height: 2rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -788,6 +781,58 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@media (min-width: 300px) {
+  .s\:m-auto {
+    margin: auto;
+  }
+
+  .s\:-mt-10 {
+    margin-top: -2.5rem;
+  }
+
+  .s\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .s\:ml-\[4\.5rem\] {
+    margin-left: 4.5rem;
+  }
+
+  .s\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .s\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .s\:w-14 {
+    width: 3.5rem;
+  }
+
+  .s\:w-\[13rem\] {
+    width: 13rem;
+  }
+
+  .s\:w-\[22rem\] {
+    width: 22rem;
+  }
+
+  .s\:bg-APurple {
+    --tw-bg-opacity: 1;
+    background-color: hsl(259 100% 65% / var(--tw-bg-opacity, 1));
+  }
+
+  .s\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .s\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 375px) {
   .xs\:ml-\[5\.5rem\] {
     margin-left: 5.5rem;
@@ -821,44 +866,24 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:m-auto {
+    margin: auto;
+  }
+
   .md\:ml-\[32rem\] {
     margin-left: 32rem;
-  }
-
-  .md\:ml-\[30rem\] {
-    margin-left: 30rem;
-  }
-
-  .md\:ml-\[40rem\] {
-    margin-left: 40rem;
-  }
-
-  .md\:ml-\[0rem\] {
-    margin-left: 0rem;
-  }
-
-  .md\:ml-\[35rem\] {
-    margin-left: 35rem;
-  }
-
-  .md\:ml-\[33rem\] {
-    margin-left: 33rem;
   }
 
   .md\:w-40 {
     width: 10rem;
   }
 
-  .md\:w-\[40rem\] {
-    width: 40rem;
-  }
-
   .md\:w-\[35rem\] {
     width: 35rem;
   }
 
-  .md\:flex-row {
-    flex-direction: row;
+  .md\:w-\[40rem\] {
+    width: 40rem;
   }
 
   .md\:bg-black {
