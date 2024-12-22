@@ -40,7 +40,7 @@
   </head>
   <body class="bg-Offwhite font-Poppins">
     <div class="container flex w-screen h-screen">
-      <div class="md:w-[40rem] h-96 bg-AWhite shadow-lg m-auto xs:w-[20rem]">
+      <div class="md:w-[40rem] h-96 bg-AWhite shadow-lg m-auto xs:w-[20rem] s:w-[20rem]">
         <div class="justify-center content-center flex justify-items-center pt-10 gap-5 max-w-2xl md:flex-row">
           <div class="">
             <h1 class="hDay font-semibold text-sm">Day</h1>
@@ -51,9 +51,13 @@
               id="hari"
               min="1"
               max="31"
-              class="border-2 border-APurple rounded-lg h-10 xs:w-20 md:w-40 text-2xl font-bold"
+              class="border-2 border-APurple rounded-lg h-10 xs:w-20 s:w-20 md:w-40 text-2xl font-bold"
             />
-            <span id="error-hari" class="text-red-500 text-xs hidden">Must be a valid day</span>
+            <span
+              id="error-hari"
+              class="text-red-500 text-xs hidden"
+              >Must be a valid day</span
+            >
           </div>
           <div>
             <h1 class="mMonth font-semibold text-sm">Month</h1>
@@ -64,9 +68,13 @@
               id="bulan"
               min="1"
               max="12"
-              class="border-2 border-APurple rounded-lg h-10 xs:w-20 md:w-40 text-2xl font-bold "
+              class="border-2 border-APurple rounded-lg h-10 xs:w-20 s:w-20 md:w-40 text-2xl font-bold"
             />
-            <span id="error-bulan" class="text-red-500 text-xs hidden">Must be a valid month</span>
+            <span
+              id="error-bulan"
+              class="text-red-500 text-xs hidden"
+              >Must be a valid month</span
+            >
           </div>
           <div>
             <h1 class="yYear font-semibold text-sm">Year</h1>
@@ -77,19 +85,23 @@
               id="tahun"
               min="1900"
               max="2100"
-              class="border-2 border-APurple rounded-lg h-10 xs:w-20 md:w-40 text-2xl font-bold"
+              class="border-2 border-APurple rounded-lg h-10 xs:w-20 s:w-20 md:w-40 text-2xl font-bold"
             />
-            <span id="error-tahun" class="text-red-500 text-xs hidden">Must be a valid year</span>
+            <span
+              id="error-tahun"
+              class="text-red-500 text-xs hidden"
+              >Must be a valid year</span
+            >
           </div>
           <!-- <p class="absolute mt-[3.5rem] text-Lightred hidden">must be a valid date</p> -->
         </div>
 
-        <div class="md:w-[35rem] border-b-2 border-black m-auto pt-10 overflow-hidden max-w-2xl xs:w-[15rem]">
-          <div class="absolute -mt-5 md:ml-[32rem] pointer-events-auto xs:ml-[5.5rem]">
+        <div class="md:w-[35rem] border-b-2 border-black m-auto pt-10 overflow-hidden max-w-2xl xs:w-[15rem] s:w-[15rem]">
+          <div class="absolute -mt-5 md:ml-[32rem] pointer-events-auto xs:ml-[5.5rem] s:ml-[5.5rem]">
             <button class="hitung">
               <img
                 src="assets/images/icon-arrow.svg"
-                class="md:bg-black rounded-full p-2 xs:bg-APurple"
+                class="md:bg-black rounded-full p-2 xs:bg-APurple s:bg-APurple"
                 alt=""
                 srcset=""
               />
@@ -98,7 +110,7 @@
         </div>
 
         <div class="pt-5 xs:pt-10">
-          <h1 class="md:text-6xl font-bold text-center xs:text-5xl">
+          <h1 class="md:text-6xl font-bold text-center xs:text-5xl s:text-5xl">
             <span
               id="hasiltahun"
               class="text-APurple"
@@ -106,7 +118,7 @@
             >
             years
           </h1>
-          <h1 class="md:text-6xl font-bold text-center xs:text-5xl">
+          <h1 class="md:text-6xl font-bold text-center xs:text-5xl s:text-5xl">
             <span
               id="hasilbulan"
               class="text-APurple"
@@ -114,7 +126,7 @@
             >
             months
           </h1>
-          <h1 class="md:text-6xl font-bold text-center xs:text-5xl">
+          <h1 class="md:text-6xl font-bold text-center xs:text-5xl s:text-5xl">
             <span
               id="hasilHari"
               class="text-APurple"
